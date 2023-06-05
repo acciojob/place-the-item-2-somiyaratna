@@ -1,22 +1,26 @@
-
-/* Your CSS Code here. */
+*{
+margin: 0px;
+padding: 0px;
+}
+ 
 .holder{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;   
 }
-.item-3{
-	width:90px;
-	height:90px;
-	background-color:green;
+ 
+ .holder .item {
+   height : 100px;
+   width:16%;
+   background-color: green; 
 }
-.item-1{
-	width:90px;
-	height:90px;
-	background-color:red;
+ 
+.item1{
+    background-color: red !important ; 
+    order:10;
 }
-.item-2{
-	width:90px;
-	height:90px;
-	background-color:blue;
-}
+ 
+ .item2{
+    background-color: blue !important;
+    order:11;
+} 
